@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Data (regenerate from raw snapshots)
+data/raw/*
+!data/raw/.gitkeep
+data/clean/*
+!data/clean/.gitkeep
+
+# Environment
+.env
+.DS_Store
+Thumbs.db
+
+# Office temp files
+~$*
+
+# Private working files (kept locally, never published)
+week1/_build/
+week1/Submission_Description_Week1.txt
