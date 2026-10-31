@@ -30,7 +30,8 @@ Six crops — wheat, paddy, maize, soybean, cotton and onion — across eight In
 each crop represents a distinct commercial behaviour rather than a convenient sample. The forecast
 target is the monthly modal wholesale price at 1, 3, 6 and 12 months, plus annual yield per state.
 Thirty-eight public sources supply the data, thirty indicators carry the signal, and every model must
-beat a seasonal naive benchmark before it is reported.
+beat both naive forecasts — a random walk and a seasonal naive — before it is reported. Appendix F runs
+that method end to end on real World Bank price data rather than leaving it as an intention.
 
 ---
 

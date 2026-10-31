@@ -6,7 +6,7 @@
 
 | File | Purpose |
 |---|---|
-| `Agribusiness_Data_Analysis_Plan_Week1.docx` | The report — upload this (31 pages) |
+| `Agribusiness_Data_Analysis_Plan_Week1.docx` | The report — upload this (37 pages) |
 | `Agribusiness_Data_Analysis_Plan_Week1_preview.pdf` | Rendered copy for quick reading |
 
 ## What the report commits to
@@ -17,9 +17,13 @@
 - **Evidence base:** 38 public sources across six families, with access checked on 27 October 2026.
 - **Indicators:** 30 across five lenses, ranked into a 12 / 10 / 8 build order.
 - **Forecastability:** three tiers — prices get intervals, yields get ranges, policy gets scenarios.
-- **Method:** model ladder from seasonal naive upward; a model is reported only if it beats the
-  benchmark, with MASE below 1.0 and calibrated intervals.
+- **Method:** model ladder from two naive forecasts upward — a random walk and a seasonal naive; a model
+  is reported only if it beats both, with MASE below 1.0 and calibrated intervals.
 - **Execution:** nine phases, fourteen cleaning rules, five dated gates ending 26 November 2026.
+- **Evidence:** Appendix F is a pilot run end to end on World Bank monthly commodity prices
+  (January 2019 – September 2026, five crops, 2,700 forecast errors per model). It produces the seasonal
+  index, the storage-carry calculation and the benchmark backtest on real data, and it is why the
+  benchmark rule above is a pair rather than a single series.
 
 ## Structure of the report
 
@@ -32,7 +36,7 @@
 | 6 | Nine-phase execution plan, fourteen cleaning rules, data dictionary |
 | 7 | Five-week timeline, Gantt schedule, milestones, critical path, contingency |
 | 8–12 | Deliverables, risks, governance, budget, project measures |
-| Appendices | Glossary, access notes, references, assumptions log, weekly checklist |
+| Appendices | Glossary, access notes, references, assumptions log, weekly checklist, pilot on real price data |
 
 ## Rebuilding
 
