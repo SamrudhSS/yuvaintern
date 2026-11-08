@@ -1,0 +1,49 @@
+{
+  "seed": 20261104,
+  "panel": "MYP-26",
+  "prices": {
+    "rows": 3535,
+    "cells": 3535,
+    "injected": {
+      "rates": {
+        "duplicate_rows": 0.022347949080622348,
+        "missing_price": 0.048032407407407406,
+        "zero_price": 0.011863425925925927,
+        "unit_drift": 0.01099537037037037,
+        "outlier_typo": 0.008969907407407407,
+        "outlier_unresolved": 0.002025462962962963,
+        "date_format": 0.033854166666666664,
+        "crop_alias": 0.019965277777777776,
+        "state_alias": 0.015046296296296295,
+        "negative_price": 0.001736111111111111
+      },
+      "indices": {
+        "duplicate_rows": 79,
+        "missing_price": 166,
+        "zero_price": 41,
+        "unit_drift": 38,
+        "outlier_typo": 31,
+        "outlier_unresolved": 7,
+        "date_format": 117,
+        "crop_alias": 69,
+        "state_alias": 52,
+        "negative_price": 6
+      }
+    }
+  },
+  "yields": {
+    "rows": 480,
+    "injected": {
+      "rates": {
+        "production_unit_error": 0.0125,
+        "area_unit_error": 0.008333333333333333,
+        "missing_yield": 0.010416666666666666
+      },
+      "indices": {
+        "production_unit_error": 6,
+        "area_unit_error": 4,
+        "missing_yield": 5
+      }
+    }
+  }
+}

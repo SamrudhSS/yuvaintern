@@ -1,0 +1,551 @@
+step,rule_id,table,row_id,field,old_value,new_value,action,reason
+S2,R01,prices,P01651,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P01589,modal_price_inr_quintal,-2033.03,,nulled,negative price is invalid; treated as missing
+S2,R01,prices,P00284,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P00684,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P01082,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P00841,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P02622,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P02407,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P01208,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P02690,modal_price_inr_quintal,-8469.93,,nulled,negative price is invalid; treated as missing
+S2,R01,prices,P03084,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P02093,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P00385,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P01565,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P01384,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P03307,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P01112,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P00704,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P00203,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P00699,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P01417,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P01652,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P01773,modal_price_inr_quintal,-6455.25,,nulled,negative price is invalid; treated as missing
+S2,R01,prices,P00149,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P02459,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P01998,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P00129,modal_price_inr_quintal,-2938.63,,nulled,negative price is invalid; treated as missing
+S2,R01,prices,P01126,modal_price_inr_quintal,-2171.62,,nulled,negative price is invalid; treated as missing
+S2,R01,prices,P02299,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P00909,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P02452,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P01638,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P00585,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P00719,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P02476,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P03258,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P03411,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P01721,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P01259,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P00607,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P00824,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P01226,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P03027,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P02384,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P00857,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S2,R01,prices,P02880,modal_price_inr_quintal,-9723.74,,nulled,negative price is invalid; treated as missing
+S2,R01,prices,P03136,modal_price_inr_quintal,0.0,,nulled,"zero price means no trade; treated as missing, never as zero"
+S4,R03,prices,P02534,state,Haryana (IND),Haryana,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P02105,state,Karnataka ,Karnataka,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P00819,crop,Paddy(Dhan),PADDY,harmonised,crop synonym map
+S4,R03,prices,P02919,crop,Onion (Nashik),ONION,harmonised,crop synonym map
+S4,R03,prices,P02871,crop,Cotton Kapas,COTTON,harmonised,crop synonym map
+S4,R03,prices,P02871,state,Rajasthan ,Rajasthan,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P00954,crop,Paddy(Dhan),PADDY,harmonised,crop synonym map
+S4,R03,prices,P01443,crop,Maize (Zea mays),MAIZE,harmonised,crop synonym map
+S4,R03,prices,P00310,crop,Wheat FAQ,WHEAT,harmonised,crop synonym map
+S4,R03,prices,P00195,crop,Wheat FAQ,WHEAT,harmonised,crop synonym map
+S4,R03,prices,P00184,crop,Wheat FAQ,WHEAT,harmonised,crop synonym map
+S4,R03,prices,P02360,state,Maharastra,Maharashtra,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P01428,state,Haryana (IND),Haryana,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P03154,crop,Onion (Nashik),ONION,harmonised,crop synonym map
+S4,R03,prices,P01959,crop,Soyabean,SOYBEAN,harmonised,crop synonym map
+S4,R03,prices,P00797,crop,Rice,PADDY,harmonised,crop synonym map
+S4,R03,prices,P02805,crop,Cotton Kapas,COTTON,harmonised,crop synonym map
+S4,R03,prices,P02731,crop,Cotton Kapas,COTTON,harmonised,crop synonym map
+S4,R03,prices,P00844,crop,Paddy(Dhan),PADDY,harmonised,crop synonym map
+S4,R03,prices,P01669,crop,Maize (Zea mays),MAIZE,harmonised,crop synonym map
+S4,R03,prices,P00825,state,Haryana (IND),Haryana,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P03031,state,Punjab ,Punjab,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P00387,crop,Wheat FAQ,WHEAT,harmonised,crop synonym map
+S4,R03,prices,P01468,crop,Maize (Zea mays),MAIZE,harmonised,crop synonym map
+S4,R03,prices,P02016,crop,Soyabean,SOYBEAN,harmonised,crop synonym map
+S4,R03,prices,P02036,crop,Soyabean,SOYBEAN,harmonised,crop synonym map
+S4,R03,prices,P03375,crop,Onion (Nashik),ONION,harmonised,crop synonym map
+S4,R03,prices,P00175,crop,Wheat FAQ,WHEAT,harmonised,crop synonym map
+S4,R03,prices,P00688,state,MP,Madhya Pradesh,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P02190,state,Gujrat,Gujarat,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P00877,crop,Paddy(Dhan),PADDY,harmonised,crop synonym map
+S4,R03,prices,P01583,state,Karnataka ,Karnataka,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P01616,crop,Maize (Zea mays),MAIZE,harmonised,crop synonym map
+S4,R03,prices,P02648,crop,Cotton Kapas,COTTON,harmonised,crop synonym map
+S4,R03,prices,P01420,state,Haryana (IND),Haryana,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P00472,crop,Wheat FAQ,WHEAT,harmonised,crop synonym map
+S4,R03,prices,P02710,crop,Cotton Kapas,COTTON,harmonised,crop synonym map
+S4,R03,prices,P02875,crop,Cotton Kapas,COTTON,harmonised,crop synonym map
+S4,R03,prices,P03349,state,Gujrat,Gujarat,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P00275,crop,Wheat FAQ,WHEAT,harmonised,crop synonym map
+S4,R03,prices,P01631,crop,Maize (Zea mays),MAIZE,harmonised,crop synonym map
+S4,R03,prices,P01572,crop,Maize (Zea mays),MAIZE,harmonised,crop synonym map
+S4,R03,prices,P02496,state,Punjab ,Punjab,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P01709,state,Rajasthan ,Rajasthan,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P02334,crop,Cotton Kapas,COTTON,harmonised,crop synonym map
+S4,R03,prices,P00625,state,Maharastra,Maharashtra,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P00534,crop,Wheat FAQ,WHEAT,harmonised,crop synonym map
+S4,R03,prices,P01688,state,Rajasthan ,Rajasthan,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P01459,state,U.P.,Uttar Pradesh,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P02147,crop,Soyabean,SOYBEAN,harmonised,crop synonym map
+S4,R03,prices,P03062,state,Punjab ,Punjab,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P02724,crop,Cotton Kapas,COTTON,harmonised,crop synonym map
+S4,R03,prices,P02744,crop,Cotton Kapas,COTTON,harmonised,crop synonym map
+S4,R03,prices,P02806,crop,Cotton Kapas,COTTON,harmonised,crop synonym map
+S4,R03,prices,P03270,crop,Onion (Nashik),ONION,harmonised,crop synonym map
+S4,R03,prices,P01605,state,Gujrat,Gujarat,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P01044,crop,Paddy(Dhan),PADDY,harmonised,crop synonym map
+S4,R03,prices,P00657,state,MP,Madhya Pradesh,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P00167,crop,Wheat FAQ,WHEAT,harmonised,crop synonym map
+S4,R03,prices,P01434,crop,Maize (Zea mays),MAIZE,harmonised,crop synonym map
+S4,R03,prices,P00850,crop,Rice,PADDY,harmonised,crop synonym map
+S4,R03,prices,P02447,crop,Cotton Kapas,COTTON,harmonised,crop synonym map
+S4,R03,prices,P01282,state,MP,Madhya Pradesh,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P00818,crop,Rice,PADDY,harmonised,crop synonym map
+S4,R03,prices,P01903,crop,Soyabean,SOYBEAN,harmonised,crop synonym map
+S4,R03,prices,P00782,state,Punjab ,Punjab,harmonised,state name map; LGD code is the join key
+S4,R03,prices,P02782,crop,Cotton Kapas,COTTON,harmonised,crop synonym map
+S5,R04,prices,P02393,month,01/05/2021,2021-05-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00993,month,01/09/2024,2024-09-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01492,month,Apr-2024,2024-04-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00236,month,01/08/2021,2021-08-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01139,month,Nov-2024,2024-11-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02479,month,01/07/2022,2022-07-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00950,month,Feb-2021,2021-02-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00220,month,01/04/2020,2020-04-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01655,month,01/11/2025,2025-11-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00795,month,Mar-2020,2020-03-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00914,month,01/02/2024,2024-02-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01629,month,Sep-2023,2023-09-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00712,month,Apr-2025,2025-04-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P03090,month,01/06/2025,2025-06-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00661,month,Jan-2021,2021-01-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P03328,month,Apr-2021,2021-04-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P03235,month,01/07/2025,2025-07-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P03183,month,01/03/2021,2021-03-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01472,month,Aug-2022,2022-08-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P03290,month,01/02/2024,2024-02-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00687,month,Mar-2023,2023-03-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00790,month,Oct-2025,2025-10-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00426,month,01/06/2025,2025-06-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02033,month,01/05/2021,2021-05-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00783,month,Mar-2025,2025-03-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P03409,month,Jan-2022,2022-01-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00009,month,Sep-2020,2020-09-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00923,month,01/11/2024,2024-11-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02591,month,01/11/2025,2025-11-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02794,month,Oct-2024,2024-10-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01170,month,Jun-2021,2021-06-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00215,month,01/11/2025,2025-11-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00001,month,01/01/2020,2020-01-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P03094,month,Oct-2025,2025-10-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01168,month,Apr-2021,2021-04-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02945,month,01/05/2025,2025-05-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01523,month,01/11/2020,2020-11-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02801,month,01/05/2025,2025-05-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02273,month,01/05/2023,2023-05-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00282,month,Jun-2025,2025-06-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01821,month,Sep-2021,2021-09-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P03298,month,Oct-2024,2024-10-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02683,month,Jul-2021,2021-07-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00431,month,01/11/2025,2025-11-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00305,month,May-2021,2021-05-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P03099,month,01/03/2020,2020-03-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00272,month,Aug-2024,2024-08-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02255,month,Nov-2021,2021-11-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01249,month,01/01/2022,2022-01-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P03155,month,Nov-2024,2024-11-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00829,month,01/01/2023,2023-01-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01636,month,Apr-2024,2024-04-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00583,month,01/07/2020,2020-07-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00507,month,01/03/2020,2020-03-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01891,month,01/07/2021,2021-07-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01270,month,01/10/2023,2023-10-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01989,month,Sep-2023,2023-09-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00962,month,01/02/2022,2022-02-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02101,month,01/01/2021,2021-01-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02145,month,01/09/2024,2024-09-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P03343,month,Jul-2022,2022-07-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02852,month,Aug-2023,2023-08-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01786,month,Oct-2024,2024-10-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P03141,month,Sep-2023,2023-09-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00279,month,Mar-2025,2025-03-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01725,month,Sep-2025,2025-09-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01841,month,01/05/2023,2023-05-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00389,month,01/05/2022,2022-05-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P03196,month,01/04/2022,2022-04-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02120,month,01/08/2022,2022-08-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02568,month,Dec-2023,2023-12-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01709,month,01/05/2024,2024-05-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00734,month,01/02/2021,2021-02-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02458,month,Oct-2020,2020-10-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P03381,month,01/09/2025,2025-09-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00612,month,Dec-2022,2022-12-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02878,month,01/10/2025,2025-10-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00591,month,01/03/2021,2021-03-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P03054,month,Jun-2022,2022-06-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02282,month,01/02/2024,2024-02-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02895,month,01/03/2021,2021-03-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00283,month,Jul-2025,2025-07-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02413,month,Jan-2023,2023-01-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01013,month,May-2020,2020-05-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00483,month,01/03/2024,2024-03-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01397,month,May-2022,2022-05-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00788,month,Aug-2025,2025-08-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P03171,month,01/03/2020,2020-03-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00592,month,Apr-2021,2021-04-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02806,month,01/10/2025,2025-10-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00512,month,Aug-2020,2020-08-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01003,month,01/07/2025,2025-07-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00681,month,Sep-2022,2022-09-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02936,month,01/08/2024,2024-08-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P03223,month,01/07/2024,2024-07-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01657,month,01/01/2020,2020-01-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00402,month,01/06/2023,2023-06-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02436,month,01/12/2024,2024-12-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01696,month,01/04/2023,2023-04-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00657,month,Sep-2020,2020-09-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02889,month,Sep-2020,2020-09-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00037,month,01/01/2023,2023-01-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01294,month,Oct-2025,2025-10-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01787,month,01/11/2024,2024-11-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01933,month,Jan-2025,2025-01-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01978,month,Oct-2022,2022-10-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02497,month,Jan-2024,2024-01-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00420,month,Dec-2024,2024-12-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01705,month,Jan-2024,2024-01-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01995,month,01/03/2024,2024-03-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P02451,month,Mar-2020,2020-03-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01581,month,Sep-2025,2025-09-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01906,month,01/10/2022,2022-10-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P03180,month,Dec-2020,2020-12-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P01801,month,01/01/2020,2020-01-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00181,month,01/01/2023,2023-01-01,parsed,date convention -> ISO 8601
+S5,R04,prices,P00760,month,Apr-2023,2023-04-01,parsed,date convention -> ISO 8601
+S3,R02,prices,P02751,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02550,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02565,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02681,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02387,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02445,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02306,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02342,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02345,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02623,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02630,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02634,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01608,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01373,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01413,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01428,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01536,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01237,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01240,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01274,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01162,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01172,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01205,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01302,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01304,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01314,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01343,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01684,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01461,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01504,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01507,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P03378,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P03380,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P03141,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P03159,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P03163,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P03310,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02954,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02971,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P03059,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P03196,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P03205,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01058,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00818,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00831,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00942,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00976,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00651,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00678,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00707,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00716,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00741,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00780,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01128,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00912,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00915,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02200,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02214,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02219,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02232,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02106,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02122,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01839,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01857,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01744,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P01879,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02240,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02286,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P02303,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00451,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00478,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00246,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00038,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00158,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00184,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00201,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00507,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00568,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S3,R02,prices,P00326,*,,,dropped,"duplicate key after harmonisation; kept priced, latest retrieval"
+S4,R06,prices,P02761,modal_price_inr_quintal,74349.1,7434.91,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P02786,modal_price_inr_quintal,91.579,9157.9,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P02789,modal_price_inr_quintal,921.098,9210.98,corrected,decimal slip: one place low (x10)
+S4,R06,prices,P02818,modal_price_inr_quintal,75.879,7587.9,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P02851,modal_price_inr_quintal,71755.9,7175.59,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P02860,modal_price_inr_quintal,97570.1,9757.01,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P02616,modal_price_inr_quintal,77494.2,7749.42,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P02637,modal_price_inr_quintal,75.626,7562.6,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P01603,modal_price_inr_quintal,20095.8,2009.58,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P01648,modal_price_inr_quintal,26.386,2638.6,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P01393,modal_price_inr_quintal,21.158,2115.8,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P01398,modal_price_inr_quintal,20120.3,2012.03,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P01211,modal_price_inr_quintal,23.346,2334.6,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P01358,modal_price_inr_quintal,21.325,2132.5,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P01718,modal_price_inr_quintal,24626.1,2462.61,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P01442,modal_price_inr_quintal,20.097,2009.7,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P01479,modal_price_inr_quintal,189.528,1895.28,corrected,decimal slip: one place low (x10)
+S4,R06,prices,P03373,modal_price_inr_quintal,26149.4,2614.94,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P03268,modal_price_inr_quintal,23.322,2332.2,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P03277,modal_price_inr_quintal,23715.0,2371.5,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P03312,modal_price_inr_quintal,27.513,2751.3,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P02939,modal_price_inr_quintal,29.089,2908.9,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P02940,modal_price_inr_quintal,27.747,2774.7,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P03061,modal_price_inr_quintal,28358.9,2835.89,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P03062,modal_price_inr_quintal,27.552,2755.2,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P03417,modal_price_inr_quintal,159.513,1595.13,corrected,decimal slip: one place low (x10)
+S4,R06,prices,P03444,modal_price_inr_quintal,240.637,2406.37,corrected,decimal slip: one place low (x10)
+S4,R06,prices,P03240,modal_price_inr_quintal,23.338,2333.8,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P01032,modal_price_inr_quintal,217.102,2171.02,corrected,decimal slip: one place low (x10)
+S4,R06,prices,P01035,modal_price_inr_quintal,21882.800000000003,2188.28,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P01036,modal_price_inr_quintal,23390.8,2339.08,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P01054,modal_price_inr_quintal,29285.8,2928.58,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P00849,modal_price_inr_quintal,28.749,2874.9,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P00712,modal_price_inr_quintal,250.847,2508.47,corrected,decimal slip: one place low (x10)
+S4,R06,prices,P00584,modal_price_inr_quintal,28211.9,2821.19,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P00629,modal_price_inr_quintal,22.429,2242.9,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P00901,modal_price_inr_quintal,23.39,2339.0,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P00919,modal_price_inr_quintal,223.15,2231.5,corrected,decimal slip: one place low (x10)
+S4,R06,prices,P02161,modal_price_inr_quintal,488.425,4884.25,corrected,decimal slip: one place low (x10)
+S4,R06,prices,P01993,modal_price_inr_quintal,57.788,5778.8,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P02113,modal_price_inr_quintal,471.059,4710.59,corrected,decimal slip: one place low (x10)
+S4,R06,prices,P02129,modal_price_inr_quintal,48.901,4890.1,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P02138,modal_price_inr_quintal,59.369,5936.9,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P01856,modal_price_inr_quintal,58.555,5855.5,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P01732,modal_price_inr_quintal,46.169,4616.9,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P01738,modal_price_inr_quintal,56.28,5628.0,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P01904,modal_price_inr_quintal,53990.9,5399.09,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P01925,modal_price_inr_quintal,50612.5,5061.25,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P02281,modal_price_inr_quintal,55724.2,5572.42,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P02288,modal_price_inr_quintal,55.598,5559.8,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P02074,modal_price_inr_quintal,52.378,5237.8,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P02078,modal_price_inr_quintal,55.239,5523.9,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P02086,modal_price_inr_quintal,61.314,6131.4,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P00459,modal_price_inr_quintal,28621.8,2862.18,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P00468,modal_price_inr_quintal,26877.800000000003,2687.78,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P00492,modal_price_inr_quintal,29.886,2988.6,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P00401,modal_price_inr_quintal,24.606,2460.6,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P00110,modal_price_inr_quintal,25.056,2505.6,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P00019,modal_price_inr_quintal,27.179,2717.9,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P00057,modal_price_inr_quintal,30.687,3068.7,corrected,unit drift: INR/kg -> INR/quintal (x100)
+S4,R06,prices,P00571,modal_price_inr_quintal,33234.1,3323.41,corrected,decimal slip: one place high (/10)
+S4,R06,prices,P00310,modal_price_inr_quintal,21783.5,2178.35,corrected,decimal slip: one place high (/10)
+S7,R07,prices,P03022,modal_price_inr_quintal,71.02,71.02,flagged,robust z above 3.0 and not corroborated; excluded from models
+S7,R07,prices,P00906,modal_price_inr_quintal,6860.58,6860.58,flagged,robust z above 3.0 and not corroborated; excluded from models
+S7,R07,prices,P02087,modal_price_inr_quintal,20728.9,20728.9,flagged,robust z above 3.0 and not corroborated; excluded from models
+S7,R07,prices,P00256,modal_price_inr_quintal,8350.37,8350.37,flagged,robust z above 3.0 and not corroborated; excluded from models
+S7,R07,prices,P00412,modal_price_inr_quintal,9157.82,9157.82,flagged,robust z above 3.0 and not corroborated; excluded from models
+S7,R07,prices,P00530,modal_price_inr_quintal,4066.53,4066.53,flagged,genuine spike corroborated by neighbours; retained
+S6,R08,prices,P02799,modal_price_inr_quintal,,8758.84,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02807,modal_price_inr_quintal,,8947.94,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02547,modal_price_inr_quintal,,8686.29,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02555,modal_price_inr_quintal,,9009.1,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02567,modal_price_inr_quintal,,9687.56,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02666,modal_price_inr_quintal,,6846.19,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02671,modal_price_inr_quintal,,6779.84,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02701,modal_price_inr_quintal,,7866.2,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02706,modal_price_inr_quintal,,8535.11,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02721,modal_price_inr_quintal,,8233.63,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02380,modal_price_inr_quintal,,6589.6,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02385,modal_price_inr_quintal,,6930.95,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02417,modal_price_inr_quintal,,7544.21,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02418,modal_price_inr_quintal,,7877.61,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02424,modal_price_inr_quintal,,8055.22,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02319,modal_price_inr_quintal,,8271.53,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02340,modal_price_inr_quintal,,8477.38,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02343,modal_price_inr_quintal,,8522.95,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02457,modal_price_inr_quintal,,8287.2,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02477,modal_price_inr_quintal,,8119.88,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02485,modal_price_inr_quintal,,8452.86,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02490,modal_price_inr_quintal,,8407.22,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02504,modal_price_inr_quintal,,9326.68,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02449,modal_price_inr_quintal,,,left_missing,gap longer than 3 months or at series edge; not imputed
+S6,R08,prices,P02820,modal_price_inr_quintal,,7285.79,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02825,modal_price_inr_quintal,,6956.39,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02856,modal_price_inr_quintal,,7925.89,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02594,modal_price_inr_quintal,,6878.52,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01630,modal_price_inr_quintal,,2187.1,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01635,modal_price_inr_quintal,,2426.17,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01641,modal_price_inr_quintal,,2606.49,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01518,modal_price_inr_quintal,,1907.3,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01555,modal_price_inr_quintal,,2102.23,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01558,modal_price_inr_quintal,,2263.79,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01576,modal_price_inr_quintal,,2300.51,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01580,modal_price_inr_quintal,,2490.97,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01235,modal_price_inr_quintal,,2006.76,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01247,modal_price_inr_quintal,,1841.7,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01287,modal_price_inr_quintal,,2052.31,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01294,modal_price_inr_quintal,,2256.6,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01185,modal_price_inr_quintal,,2186.87,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01200,modal_price_inr_quintal,,2616.48,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01328,modal_price_inr_quintal,,2601.46,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01329,modal_price_inr_quintal,,2501.16,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01334,modal_price_inr_quintal,,2243.25,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01339,modal_price_inr_quintal,,2351.8,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01367,modal_price_inr_quintal,,2555.62,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01671,modal_price_inr_quintal,,1991.05,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01676,modal_price_inr_quintal,,2086.81,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01679,modal_price_inr_quintal,,2242.22,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01716,modal_price_inr_quintal,,2262.21,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01720,modal_price_inr_quintal,,2218.27,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01463,modal_price_inr_quintal,,2155.59,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01464,modal_price_inr_quintal,,2114.62,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01468,modal_price_inr_quintal,,1953.28,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01510,modal_price_inr_quintal,,2196.88,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P03326,modal_price_inr_quintal,,2335.55,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P03336,modal_price_inr_quintal,,2339.88,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P03364,modal_price_inr_quintal,,2469.37,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P03376,modal_price_inr_quintal,,2396.41,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P03146,modal_price_inr_quintal,,2644.88,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P03149,modal_price_inr_quintal,,2270.91,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P03097,modal_price_inr_quintal,,,left_missing,gap longer than 3 months or at series edge; not imputed
+S6,R08,prices,P03253,modal_price_inr_quintal,,2226.02,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P03283,modal_price_inr_quintal,,1814.58,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P03292,modal_price_inr_quintal,,2403.57,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P03305,modal_price_inr_quintal,,2310.22,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02963,modal_price_inr_quintal,,1952.2,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02977,modal_price_inr_quintal,,2174.33,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P03004,modal_price_inr_quintal,,2364.3,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P03036,modal_price_inr_quintal,,2262.55,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P03064,modal_price_inr_quintal,,2606.33,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P03400,modal_price_inr_quintal,,2082.97,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P03405,modal_price_inr_quintal,,1922.16,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P03408,modal_price_inr_quintal,,2182.54,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P03422,modal_price_inr_quintal,,2305.31,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P03189,modal_price_inr_quintal,,1486.4,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01043,modal_price_inr_quintal,,2392.71,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01050,modal_price_inr_quintal,,2521.63,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01066,modal_price_inr_quintal,,2554.62,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00829,modal_price_inr_quintal,,2410.01,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00834,modal_price_inr_quintal,,2606.42,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00955,modal_price_inr_quintal,,2481.28,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00977,modal_price_inr_quintal,,2560.06,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00984,modal_price_inr_quintal,,2151.75,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00688,modal_price_inr_quintal,,2068.5,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00689,modal_price_inr_quintal,,2101.45,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00695,modal_price_inr_quintal,,2160.91,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00589,modal_price_inr_quintal,,2330.74,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00606,modal_price_inr_quintal,,2548.44,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00617,modal_price_inr_quintal,,2549.82,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00644,modal_price_inr_quintal,,2736.93,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00727,modal_price_inr_quintal,,2186.62,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00745,modal_price_inr_quintal,,2541.76,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00757,modal_price_inr_quintal,,2299.28,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00762,modal_price_inr_quintal,,2727.18,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00779,modal_price_inr_quintal,,2569.73,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01083,modal_price_inr_quintal,,1963.26,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01095,modal_price_inr_quintal,,2052.59,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01114,modal_price_inr_quintal,,2401.64,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01119,modal_price_inr_quintal,,2377.7,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00866,modal_price_inr_quintal,,1706.76,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00889,modal_price_inr_quintal,,2079.03,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00895,modal_price_inr_quintal,,2300.84,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00905,modal_price_inr_quintal,,4490.87,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00931,modal_price_inr_quintal,,2358.37,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02168,modal_price_inr_quintal,,5170.41,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02194,modal_price_inr_quintal,,6271.9,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02210,modal_price_inr_quintal,,5847.01,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02225,modal_price_inr_quintal,,5472.88,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01948,modal_price_inr_quintal,,5084.73,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01951,modal_price_inr_quintal,,4995.88,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02003,modal_price_inr_quintal,,5844.94,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02107,modal_price_inr_quintal,,5025.33,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02155,modal_price_inr_quintal,,5632.6,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01805,modal_price_inr_quintal,,4539.95,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01831,modal_price_inr_quintal,,5125.45,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01753,modal_price_inr_quintal,,5795.34,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01789,modal_price_inr_quintal,,5812.51,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01793,modal_price_inr_quintal,,5606.91,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01896,modal_price_inr_quintal,,5871.73,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01901,modal_price_inr_quintal,,5013.19,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P01913,modal_price_inr_quintal,,5119.55,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02277,modal_price_inr_quintal,,5512.29,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02278,modal_price_inr_quintal,,5394.97,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02301,modal_price_inr_quintal,,6317.27,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02027,modal_price_inr_quintal,,4604.62,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P02076,modal_price_inr_quintal,,5776.99,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00436,modal_price_inr_quintal,,2345.92,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00463,modal_price_inr_quintal,,2820.27,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00464,modal_price_inr_quintal,,2818.18,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00473,modal_price_inr_quintal,,2850.25,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00482,modal_price_inr_quintal,,2886.34,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00504,modal_price_inr_quintal,,,left_missing,gap longer than 3 months or at series edge; not imputed
+S6,R08,prices,P00223,modal_price_inr_quintal,,2483.81,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00257,modal_price_inr_quintal,,5723.2,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00259,modal_price_inr_quintal,,3088.42,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00280,modal_price_inr_quintal,,2889.78,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00397,modal_price_inr_quintal,,2809.78,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00417,modal_price_inr_quintal,,3066.13,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00081,modal_price_inr_quintal,,2389.35,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00098,modal_price_inr_quintal,,2287.63,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00128,modal_price_inr_quintal,,2950.08,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00008,modal_price_inr_quintal,,2871.39,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00024,modal_price_inr_quintal,,2880.69,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00051,modal_price_inr_quintal,,3055.29,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00052,modal_price_inr_quintal,,2908.54,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00064,modal_price_inr_quintal,,2856.05,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00152,modal_price_inr_quintal,,2793.17,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00167,modal_price_inr_quintal,,2590.04,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00173,modal_price_inr_quintal,,2800.11,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00175,modal_price_inr_quintal,,3069.81,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00194,modal_price_inr_quintal,,3483.11,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00195,modal_price_inr_quintal,,3352.84,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00196,modal_price_inr_quintal,,3213.58,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00214,modal_price_inr_quintal,,3126.22,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00145,modal_price_inr_quintal,,,left_missing,gap longer than 3 months or at series edge; not imputed
+S6,R08,prices,P00297,modal_price_inr_quintal,,2527.31,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00300,modal_price_inr_quintal,,2608.56,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S6,R08,prices,P00350,modal_price_inr_quintal,,2676.84,imputed,"internal gap of at most 3 months; time interpolation, bounded by neighbours"
+S9,R14,prices,P03022,modal_price_inr_quintal,71.02,,flagged,outside plausible band 400-20000 INR/quintal
+S9,R14,prices,P02087,modal_price_inr_quintal,20728.9,,flagged,outside plausible band 400-20000 INR/quintal
+S4,R10,yields,Y00015,production_kt,1497930.0,1497.93,corrected,production recorded in tonnes instead of thousand tonnes (/1000)
+S4,R10,yields,Y00090,production_kt,1728380.0,1728.38,corrected,production recorded in tonnes instead of thousand tonnes (/1000)
+S4,R10,yields,Y00118,area_kha,785.21,317.77,corrected,area recorded in acres instead of hectares; divided by 2.471
+S4,R10,yields,Y00179,production_kt,512880.0,512.88,corrected,production recorded in tonnes instead of thousand tonnes (/1000)
+S4,R10,yields,Y00202,area_kha,1399.52,566.38,corrected,area recorded in acres instead of hectares; divided by 2.471
+S4,R10,yields,Y00208,area_kha,1588.61,642.9,corrected,area recorded in acres instead of hectares; divided by 2.471
+S4,R10,yields,Y00209,production_kt,308870.0,308.87,corrected,production recorded in tonnes instead of thousand tonnes (/1000)
+S4,R10,yields,Y00309,production_kt,1278900.0,1278.9,corrected,production recorded in tonnes instead of thousand tonnes (/1000)
+S4,R10,yields,Y00371,area_kha,729.39,295.18,corrected,area recorded in acres instead of hectares; divided by 2.471
+S4,R10,yields,Y00459,production_kt,1389800.0,1389.8,corrected,production recorded in tonnes instead of thousand tonnes (/1000)

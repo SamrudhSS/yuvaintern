@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+
+# Generated datasets are rebuilt by the pipeline; only small evidence artefacts are kept.
+data/*.csv
+!data/cleaning_log.csv
+data/_dump.txt
+
+# Rendered page previews
+figures/pages/

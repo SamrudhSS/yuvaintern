@@ -1,0 +1,90 @@
+{
+  "unit_drift": {
+    "step": "S4",
+    "rule_id": "R06",
+    "table": "prices",
+    "row_id": "P02786",
+    "field": "modal_price_inr_quintal",
+    "old_value": "91.579",
+    "new_value": "9157.9",
+    "action": "corrected",
+    "reason": "unit drift: INR/kg -> INR/quintal (x100)"
+  },
+  "decimal_slip": {
+    "step": "S4",
+    "rule_id": "R06",
+    "table": "prices",
+    "row_id": "P02761",
+    "field": "modal_price_inr_quintal",
+    "old_value": "74349.1",
+    "new_value": "7434.91",
+    "action": "corrected",
+    "reason": "decimal slip: one place high (/10)"
+  },
+  "genuine_spike": {
+    "step": "S7",
+    "rule_id": "R07",
+    "table": "prices",
+    "row_id": "P00530",
+    "field": "modal_price_inr_quintal",
+    "old_value": "4066.53",
+    "new_value": "4066.53",
+    "action": "flagged",
+    "reason": "genuine spike corroborated by neighbours; retained"
+  },
+  "unresolved_outlier": {
+    "step": "S7",
+    "rule_id": "R07",
+    "table": "prices",
+    "row_id": "P03022",
+    "field": "modal_price_inr_quintal",
+    "old_value": "71.02",
+    "new_value": "71.02",
+    "action": "flagged",
+    "reason": "robust z above 3.0 and not corroborated; excluded from models"
+  },
+  "imputed": {
+    "step": "S6",
+    "rule_id": "R08",
+    "table": "prices",
+    "row_id": "P02799",
+    "field": "modal_price_inr_quintal",
+    "old_value": "",
+    "new_value": "8758.84",
+    "action": "imputed",
+    "reason": "internal gap of at most 3 months; time interpolation, bounded by neighbours"
+  },
+  "alias": {
+    "step": "S4",
+    "rule_id": "R03",
+    "table": "prices",
+    "row_id": "P02534",
+    "field": "state",
+    "old_value": "Haryana (IND)",
+    "new_value": "Haryana",
+    "action": "harmonised",
+    "reason": "state name map; LGD code is the join key"
+  },
+  "production_unit": {
+    "step": "S4",
+    "rule_id": "R10",
+    "table": "yields",
+    "row_id": "Y00015",
+    "field": "production_kt",
+    "old_value": "1497930.0",
+    "new_value": "1497.93",
+    "action": "corrected",
+    "reason": "production recorded in tonnes instead of thousand tonnes (/1000)"
+  },
+  "area_unit": {
+    "step": "S4",
+    "rule_id": "R10",
+    "table": "yields",
+    "row_id": "Y00118",
+    "field": "area_kha",
+    "old_value": "785.21",
+    "new_value": "317.77",
+    "action": "corrected",
+    "reason": "area recorded in acres instead of hectares; divided by 2.471"
+  }
+}

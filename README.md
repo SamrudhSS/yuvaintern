@@ -6,7 +6,7 @@ The project builds a forecast-ready panel from publicly available Indian and glo
 computes a documented indicator set, and produces benchmarked price and yield forecasts with a
 dashboard and a decision memo.
 
-**Status:** Week 1 submitted · Weeks 2–5 in progress.
+**Status:** Weeks 1–2 submitted · Weeks 3–5 in progress.
 
 ---
 
@@ -15,7 +15,7 @@ dashboard and a decision memo.
 | Week | Dates | Task | Deliverable | Status |
 |---|---|---|---|---|
 | 1 | 22–28 Oct | Agribusiness data analysis planning | [Analysis plan](week1/Agribusiness_Data_Analysis_Plan_Week1.docx) | ✅ Submitted |
-| 2 | 29 Oct – 4 Nov | Data cleaning and preprocessing strategy | — | ⬜ Not started |
+| 2 | 29 Oct – 4 Nov | Data cleaning and preprocessing strategy | [Strategy](week2/Agribusiness_Data_Cleaning_Preprocessing_Strategy_Week2.docx) | ✅ Submitted |
 | 3 | 5–11 Nov | Exploratory data analysis report design | — | ⬜ Not started |
 | 4 | 12–18 Nov | Predictive modelling framework | — | ⬜ Not started |
 | 5 | 19–26 Nov | Model evaluation and reporting strategy | — | ⬜ Not started |

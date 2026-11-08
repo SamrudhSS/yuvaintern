@@ -1,0 +1,44 @@
+{
+  "prices": {
+    "rows_in": 3535,
+    "rows_out": 3456,
+    "duplicates_removed": 79,
+    "duplicate_rate_before": 0.0223,
+    "duplicate_rate_after": 0.0,
+    "duplicate_keys_after_harmonisation": 0.0223,
+    "alias_share_before": 0.0164,
+    "alias_share_after": 0.0,
+    "date_non_iso_before": 0.0331,
+    "date_non_iso_after": 0.0,
+    "completeness_before": 0.9231,
+    "completeness_after": 0.9852,
+    "market_closed_cells": 41,
+    "invalid_cells": 6,
+    "imputed_cells": 156,
+    "imputation_share": 0.0451,
+    "long_gap_cells": 0,
+    "outliers_flagged": 3,
+    "genuine_spikes": 1,
+    "implausible": 2,
+    "pit_rows": 288
+  },
+  "yields": {
+    "rows_in": 480,
+    "rows_out": 480,
+    "production_unit_fixes": 6,
+    "area_unit_fixes": 4,
+    "yield_missing_before": 0.0104,
+    "yield_missing_after": 0.0,
+    "vintages": 10,
+    "vintage_rows": 1
+  },
+  "log_rows": 550,
+  "rules_fired": 9,
+  "gates": {
+    "completeness_ge_0_98": true,
+    "duplicates_zero": true,
+    "imputation_share_lt_0_05": true,
+    "date_conformance_1_0": true,
+    "yield_derivable_1_0": true
+  }
+}
