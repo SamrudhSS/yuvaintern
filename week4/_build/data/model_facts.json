@@ -1,0 +1,223 @@
+{
+  "scope": {
+    "crops": [
+      "Wheat",
+      "Paddy",
+      "Maize",
+      "Soybean",
+      "Cotton",
+      "Onion"
+    ],
+    "states": [
+      "Maharashtra",
+      "Madhya Pradesh",
+      "Uttar Pradesh",
+      "Punjab",
+      "Rajasthan",
+      "Gujarat",
+      "Andhra Pradesh",
+      "Karnataka"
+    ],
+    "observation_months": 72,
+    "panel_rows": 3456
+  },
+  "model_ladder": {
+    "models": [
+      "Random Walk",
+      "Seasonal Naive",
+      "ETS",
+      "SARIMAX",
+      "LightGBM",
+      "Ensemble"
+    ],
+    "horizons_months": [
+      1,
+      3,
+      6,
+      12
+    ],
+    "mase": {
+      "Random Walk": {
+        "1": 1.0,
+        "3": 1.0,
+        "6": 1.0,
+        "12": 1.0
+      },
+      "Seasonal Naive": {
+        "1": 0.88,
+        "3": 0.85,
+        "6": 0.83,
+        "12": 0.81
+      },
+      "ETS": {
+        "1": 0.72,
+        "3": 0.76,
+        "6": 0.8,
+        "12": 0.84
+      },
+      "SARIMAX": {
+        "1": 0.67,
+        "3": 0.7,
+        "6": 0.76,
+        "12": 0.82
+      },
+      "LightGBM": {
+        "1": 0.58,
+        "3": 0.63,
+        "6": 0.71,
+        "12": 0.79
+      },
+      "Ensemble": {
+        "1": 0.54,
+        "3": 0.58,
+        "6": 0.66,
+        "12": 0.74
+      }
+    },
+    "smape": {
+      "Random Walk": {
+        "1": 11.4,
+        "3": 13.6,
+        "6": 16.2,
+        "12": 19.8
+      },
+      "Seasonal Naive": {
+        "1": 9.8,
+        "3": 11.2,
+        "6": 13.5,
+        "12": 16.6
+      },
+      "ETS": {
+        "1": 7.9,
+        "3": 9.3,
+        "6": 11.8,
+        "12": 14.9
+      },
+      "SARIMAX": {
+        "1": 7.2,
+        "3": 8.6,
+        "6": 10.9,
+        "12": 14.1
+      },
+      "LightGBM": {
+        "1": 6.1,
+        "3": 7.4,
+        "6": 9.6,
+        "12": 13.2
+      },
+      "Ensemble": {
+        "1": 5.7,
+        "3": 6.8,
+        "6": 8.9,
+        "12": 12.4
+      }
+    },
+    "interval_coverage_90pct": {
+      "ETS": {
+        "1": 93.1,
+        "3": 91.8,
+        "6": 89.4,
+        "12": 86.2
+      },
+      "SARIMAX": {
+        "1": 94.6,
+        "3": 93.0,
+        "6": 90.1,
+        "12": 87.5
+      },
+      "LightGBM": {
+        "1": 92.4,
+        "3": 90.6,
+        "6": 88.0,
+        "12": 84.9
+      },
+      "Ensemble": {
+        "1": 95.2,
+        "3": 94.1,
+        "6": 91.7,
+        "12": 88.3
+      }
+    },
+    "promotion_rule": "MASE < 1.0 on both RW and Seasonal Naive at all evaluated horizons",
+    "reporting_rule": "Report a model only if it beats BOTH naive benchmarks"
+  },
+  "shap_importances_pct": {
+    "STL Trend Component (T_t)": 28.4,
+    "STL Seasonal Index (S_t)": 18.7,
+    "Mandi Arrivals (lag-1)": 12.3,
+    "Rainfall Departure (lag-2 months)": 9.6,
+    "NDVI Anomaly (lag-1 month)": 7.8,
+    "Input Cost Index (Diesel + DAP)": 6.9,
+    "FCI Buffer Stock Surplus / Deficit": 5.4,
+    "Global Benchmark (CBOT / Cotlook)": 4.8,
+    "MSP Floor Spread": 3.7,
+    "Lagged Yield Realization (t-1 year)": 2.4
+  },
+  "leakage_rules": [
+    [
+      "Advance Estimate Vintage",
+      "Use only 1st AE vintage available at forecast origin date"
+    ],
+    [
+      "FCI Stock Levels",
+      "Use stock figure published at forecast origin; never use revised figures"
+    ],
+    [
+      "Rainfall Departure",
+      "Use only cumulative rainfall available up to forecast origin date"
+    ],
+    [
+      "Global Futures Prices",
+      "Use settlement price on origin date only"
+    ],
+    [
+      "Lagged Yield",
+      "Use prior-season final estimate only after 18-month revision cycle"
+    ],
+    [
+      "Mandi Arrivals",
+      "Aggregate only arrivals reported before origin; exclude future revisions"
+    ]
+  ],
+  "rolling_origin_split": {
+    "total_months": 72,
+    "initial_training_months": 36,
+    "test_folds": 25,
+    "avg_train_size_months": 44,
+    "step_size_months": 1,
+    "holdout_months": 12
+  },
+  "feature_engineering": {
+    "total_raw_variables": 42,
+    "total_engineered_features": 118,
+    "pca_weather_components": 2,
+    "polynomial_interactions": 24,
+    "lag_features": 36,
+    "calendar_dummies": 16
+  },
+  "evaluation_metrics": {
+    "primary": [
+      "MASE",
+      "sMAPE",
+      "90pct_Interval_Coverage",
+      "Directional_Accuracy"
+    ],
+    "secondary": [
+      "RMSE",
+      "MAE",
+      "Bias_percent",
+      "CRPS"
+    ],
+    "benchmark_pair": [
+      "Random Walk",
+      "Seasonal Naive"
+    ]
+  },
+  "universality_dimensions": [
+    "Swappable crop and state scope via config YAML",
+    "Data-availability tiering: Tier 1 (Full), Tier 2 (Price-only), Tier 3 (Global-only)",
+    "Model ladder scales from ETS on 24-month panels to full ensemble on 60-month panels",
+    "SHAP explainability layer is model-agnostic",
+    "Modular pipeline: each stage is independently testable"
+  ]
+}
