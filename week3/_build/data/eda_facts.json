@@ -1,0 +1,220 @@
+{
+  "total_records": 3456,
+  "crops": [
+    "Wheat",
+    "Paddy",
+    "Maize",
+    "Soybean",
+    "Cotton",
+    "Onion"
+  ],
+  "states": [
+    "Maharashtra",
+    "Madhya Pradesh",
+    "Uttar Pradesh",
+    "Punjab",
+    "Rajasthan",
+    "Gujarat",
+    "Andhra Pradesh",
+    "Karnataka"
+  ],
+  "start_date": "2021-01",
+  "end_date": "2026-12",
+  "months_count": 72,
+  "crop_stats": {
+    "Wheat": {
+      "mean_price": 2665.8,
+      "median_price": 2646.8,
+      "std_price": 295.6,
+      "cv_percent": 11.1,
+      "skewness": 0.34,
+      "kurtosis": -0.44,
+      "iqr": 415.4,
+      "seasonal_amplitude_pct": 19.5,
+      "peak_month": 12,
+      "trough_month": 3,
+      "spatial_cv_pct": 4.0,
+      "price_flexibility": -0.097,
+      "category": "Rabi Cereal (Buffer Stocked)"
+    },
+    "Paddy": {
+      "mean_price": 2531.1,
+      "median_price": 2519.7,
+      "std_price": 262.2,
+      "cv_percent": 10.4,
+      "skewness": 0.44,
+      "kurtosis": -0.28,
+      "iqr": 372.9,
+      "seasonal_amplitude_pct": 15.7,
+      "peak_month": 7,
+      "trough_month": 10,
+      "spatial_cv_pct": 3.7,
+      "price_flexibility": -0.074,
+      "category": "Kharif Cereal (Procurement Floor)"
+    },
+    "Maize": {
+      "mean_price": 2311.0,
+      "median_price": 2282.1,
+      "std_price": 276.5,
+      "cv_percent": 12.0,
+      "skewness": 0.67,
+      "kurtosis": 0.11,
+      "iqr": 373.2,
+      "seasonal_amplitude_pct": 21.2,
+      "peak_month": 5,
+      "trough_month": 10,
+      "spatial_cv_pct": 4.4,
+      "price_flexibility": -0.107,
+      "category": "Feed / Industrial Starch"
+    },
+    "Soybean": {
+      "mean_price": 5552.9,
+      "median_price": 5459.4,
+      "std_price": 772.1,
+      "cv_percent": 13.9,
+      "skewness": 0.74,
+      "kurtosis": 0.23,
+      "iqr": 1014.1,
+      "seasonal_amplitude_pct": 26.8,
+      "peak_month": 7,
+      "trough_month": 10,
+      "spatial_cv_pct": 5.4,
+      "price_flexibility": -0.145,
+      "category": "Oilseed (Import Parity Linked)"
+    },
+    "Cotton": {
+      "mean_price": 7963.1,
+      "median_price": 7709.0,
+      "std_price": 1300.9,
+      "cv_percent": 16.3,
+      "skewness": 1.13,
+      "kurtosis": 0.89,
+      "iqr": 1518.6,
+      "seasonal_amplitude_pct": 35.4,
+      "peak_month": 7,
+      "trough_month": 1,
+      "spatial_cv_pct": 4.7,
+      "price_flexibility": -0.167,
+      "category": "Commercial Fiber (Global Cotlook)"
+    },
+    "Onion": {
+      "mean_price": 2121.3,
+      "median_price": 1983.0,
+      "std_price": 1064.0,
+      "cv_percent": 50.2,
+      "skewness": 1.03,
+      "kurtosis": 1.01,
+      "iqr": 1454.7,
+      "seasonal_amplitude_pct": 125.7,
+      "peak_month": 10,
+      "trough_month": 1,
+      "spatial_cv_pct": 15.2,
+      "price_flexibility": -0.659,
+      "category": "High-Value Perishable Horticulture"
+    }
+  },
+  "state_yield_stats": {
+    "Wheat": {
+      "Maharashtra": {
+        "mean_yield": 3481.8,
+        "yield_cv": 3.3,
+        "mean_price": 2706.2
+      },
+      "Madhya Pradesh": {
+        "mean_yield": 3831.9,
+        "yield_cv": 2.9,
+        "mean_price": 2577.5
+      },
+      "Uttar Pradesh": {
+        "mean_yield": 4025.0,
+        "yield_cv": 2.8,
+        "mean_price": 2554.3
+      },
+      "Punjab": {
+        "mean_yield": 5301.7,
+        "yield_cv": 2.7,
+        "mean_price": 2631.5
+      },
+      "Rajasthan": {
+        "mean_yield": 3207.8,
+        "yield_cv": 3.1,
+        "mean_price": 2600.6
+      },
+      "Gujarat": {
+        "mean_yield": 3719.4,
+        "yield_cv": 2.9,
+        "mean_price": 2725.8
+      },
+      "Andhra Pradesh": {
+        "mean_yield": 3947.1,
+        "yield_cv": 3.1,
+        "mean_price": 2745.5
+      },
+      "Karnataka": {
+        "mean_yield": 3342.0,
+        "yield_cv": 3.4,
+        "mean_price": 2784.6
+      }
+    },
+    "Soybean": {
+      "Maharashtra": {
+        "mean_yield": 1199.4,
+        "yield_cv": 5.4,
+        "mean_price": 5595.6
+      },
+      "Madhya Pradesh": {
+        "mean_yield": 1329.5,
+        "yield_cv": 4.7,
+        "mean_price": 5418.5
+      },
+      "Uttar Pradesh": {
+        "mean_yield": 1394.0,
+        "yield_cv": 4.6,
+        "mean_price": 5324.2
+      },
+      "Punjab": {
+        "mean_yield": 1841.8,
+        "yield_cv": 4.0,
+        "mean_price": 5483.6
+      },
+      "Rajasthan": {
+        "mean_yield": 1124.9,
+        "yield_cv": 6.4,
+        "mean_price": 5434.7
+      },
+      "Gujarat": {
+        "mean_yield": 1289.7,
+        "yield_cv": 4.9,
+        "mean_price": 5666.7
+      },
+      "Andhra Pradesh": {
+        "mean_yield": 1362.2,
+        "yield_cv": 5.5,
+        "mean_price": 5730.3
+      },
+      "Karnataka": {
+        "mean_yield": 1155.1,
+        "yield_cv": 5.3,
+        "mean_price": 5769.2
+      }
+    }
+  },
+  "anomalies": {
+    "type_a_clerical_pct": 0.42,
+    "type_b_weather_shocks_count": 14,
+    "type_c_thin_liquidity_pct": 1.15,
+    "hampel_filter_window": 7,
+    "hampel_threshold_sigma": 3.0,
+    "sa_iqr_multiplier": 1.5
+  },
+  "correlation_benchmarks": {
+    "raw_cost_to_price_pearson": 0.74,
+    "detrended_cost_to_price_pearson": 0.31,
+    "onion_lag1_arrivals_to_price_corr": -0.68,
+    "onion_contemporaneous_arrivals_to_price": -0.42,
+    "rainfall_to_soybean_yield_spearman": 0.62,
+    "rainfall_to_soybean_yield_pearson": 0.44,
+    "vif_raw_climate_features": 14.8,
+    "vif_pca_orthogonal_features": 1.05
+  }
+}
