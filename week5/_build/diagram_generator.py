@@ -157,8 +157,9 @@ def fig_heatmap():
     cbar.ax.tick_params(labelsize=7.5)
     cbar.outline.set_visible(False)
 
-    ax.text(0, len(pivot.index) - 0.28, "★ = benchmark    ✓ = beats both benchmarks    ✗ = fails the gate",
-            fontsize=7.6, color="#4D5B53")
+    fig.subplots_adjust(bottom=0.18)
+    fig.text(0.01, 0.045, "★ = benchmark    ✓ = beats both benchmarks    ✗ = fails the gate",
+             fontsize=7.6, color="#4D5B53")
     _source(fig, "Source: Week 5 evaluation harness on World Bank Pink Sheet wheat prices. 60 folds, step 3 months, 2010-12 to 2025-09 origins.")
     fig.savefig(FIGS / "scorecard_heatmap.png")
     plt.close(fig)
@@ -432,8 +433,9 @@ def fig_cross_commodity():
     cbar.set_label("MASE vs RW", fontsize=8)
     cbar.ax.tick_params(labelsize=7.5)
     cbar.outline.set_visible(False)
-    ax.text(0, len(F.CROPS) - 0.30, "Best candidate per cell; ✓ beats both benchmarks, ✗ does not.",
-            fontsize=7.6, color="#4D5B53")
+    fig.subplots_adjust(bottom=0.18)
+    fig.text(0.01, 0.045, "Best candidate per cell; ✓ beats both benchmarks, ✗ does not.",
+             fontsize=7.6, color="#4D5B53")
     _source(fig, "45 folds per commodity, step 4 months. Same hyperparameters, no per-crop tuning.")
     fig.savefig(FIGS / "cross_commodity.png")
     plt.close(fig)

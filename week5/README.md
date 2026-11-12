@@ -6,7 +6,7 @@
 
 | File | Purpose |
 |---|---|
-| [`Agribusiness_Model_Evaluation_Reporting_Strategy_Week5.docx`](Agribusiness_Model_Evaluation_Reporting_Strategy_Week5.docx) | Official Word deliverable (48 pages, 19,861 words, 40 numbered tables, 12 figures) |
+| [`Agribusiness_Model_Evaluation_Reporting_Strategy_Week5.docx`](Agribusiness_Model_Evaluation_Reporting_Strategy_Week5.docx) | Official Word deliverable (48 pages, 19,861 words, 40 numbered tables, 12 figures; 1.05 MB / 1,104,717 bytes) |
 | [`Agribusiness_Model_Evaluation_Reporting_Strategy_Week5_preview.pdf`](Agribusiness_Model_Evaluation_Reporting_Strategy_Week5_preview.pdf) | Rendered PDF preview with refreshed contents, header and footer fields |
 | [`Submission_Description_Week5.txt`](Submission_Description_Week5.txt) | Submission-ready description (300+ words) with the GitHub project URL |
 | [`data/README.md`](data/README.md) | Executed evidence, source window, metric conventions and regeneration steps |
@@ -125,7 +125,8 @@ _build/
   sec_b.py                   Sections 3–4: evaluation design and visualisation
   sec_c.py                   Sections 5–6: reporting system, executive summary, limitations
   sec_d.py                   Sections 7–8 and Appendices A–F
-  build_week5.py             Assembles the DOCX
+  build_week5.py             Assembles the DOCX and compacts its figures
+  compact_docx.py            Re-encodes embedded PNGs to keep the DOCX under 2 MB
   export_pdf.ps1             Word COM PDF export and field refresh
   scrub_metadata.py          DOCX and PDF metadata anonymisation
   figures/                   12 rendered figures
@@ -147,7 +148,8 @@ python week5\_build\scrub_metadata.py all
 
 The full audit takes roughly 10 minutes on a laptop because it fits ETS and SARIMAX at 60
 origins. The figure, document and PDF steps take under a minute. Microsoft Word is required for
-the automated PDF export.
+the automated PDF export. The build re-encodes the twelve report figures automatically, so the
+DOCX lands at about 1.05 MB — below a 2 MB upload ceiling — without changing page layout or text.
 
 Requires Python 3.10+ with `pandas`, `numpy`, `statsmodels`, `scikit-learn`, `matplotlib`,
 `python-docx`, `Pillow` and `pymupdf`. LightGBM is not required; the direct learner is

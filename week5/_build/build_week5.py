@@ -15,6 +15,7 @@ import sec_a
 import sec_b
 import sec_c
 import sec_d
+from compact_docx import compact_docx
 from docbase import base_document, TABLE_NO, FIG_NO
 
 OUT = HERE.parent / "Agribusiness_Model_Evaluation_Reporting_Strategy_Week5.docx"
@@ -66,8 +67,10 @@ def build():
     cp.category = "Internship deliverable"
 
     doc.save(str(OUT))
+    before, after = compact_docx(OUT)
     print(f"Saved {OUT}")
     print(f"Tables: {TABLE_NO[0]} | Figures: {FIG_NO[0]}")
+    print(f"Size: {before:,} -> {after:,} bytes ({after / 1024 / 1024:.2f} MB)")
 
 
 if __name__ == "__main__":
