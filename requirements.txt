@@ -11,3 +11,9 @@ matplotlib
 plotly
 streamlit
 jupyterlab
+openpyxl
+nbformat
+nbclient
+python-docx
+Pillow
+pymupdf
